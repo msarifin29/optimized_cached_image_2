@@ -1,7 +1,6 @@
 name: optimized_cached_image
 description: A library for loading images from network, resizing as per container size and caching while being memory sensitive.
-version: 3.0.1
-homepage: https://github.com/humblerookie/optimized_cached_image
+version: 1.0.0
 
 environment:
   sdk: ">=3.0.0 <4.0.0"
@@ -10,14 +9,14 @@ dependencies:
     sdk: flutter
   flutter_cache_manager: ^3.3.0
   flutter_image_compress: ^2.0.3
-  uuid: ^3.0.3
-  http: ^0.13.1
+  uuid: ^4.3.3
+  http: ^1.1.2
   path_provider: ^2.0.15
   path: ^1.8.0
   pedantic: ^1.11.0
   sprintf: ^7.0.0
-  octo_image: ^1.0.0
+  octo_image: ^2.0.0
   image: ^4.0.17
-  file: ^6.1.0
+  file: ^7.0.0
 dev_dependencies:
   test: ^1.16.8

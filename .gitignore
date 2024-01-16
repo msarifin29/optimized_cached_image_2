@@ -9,10 +9,10 @@ build/
 doc/
 /.flutter-plugins
 /.flutter-plugins-dependencies
-/example/linux/flutter/generated_plugin_registrant.cc
-/example/windows/flutter/generated_plugin_registrant.cc
-/example/linux/flutter/generated_plugin_registrant.h
-/example/windows/flutter/generated_plugin_registrant.h
-/example/linux/flutter/generated_plugins.cmake
-/example/windows/flutter/generated_plugins.cmake
+/ex/linux/flutter/generated_plugin_registrant.cc
+/ex/windows/flutter/generated_plugin_registrant.cc
+/ex/linux/flutter/generated_plugin_registrant.h
+/ex/windows/flutter/generated_plugin_registrant.h
+/ex/linux/flutter/generated_plugins.cmake
+/ex/windows/flutter/generated_plugins.cmake
 /android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java
