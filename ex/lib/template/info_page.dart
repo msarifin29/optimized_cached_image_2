@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:url_launcher/url_launcher.dart';
 
 import 'globals.dart';
 
@@ -82,7 +81,7 @@ class InfoPage extends StatelessWidget {
   Future<void> _launchURL(String url) async {
     final uri = Uri.tryParse(url);
     if (uri != null) {
-      await launchUrl(uri);
+      // await launchUrl(uri);
     } else {
       throw 'Could not launch $url';
     }

@@ -143,6 +143,7 @@ class OptimizedCacheImageProvider
   }
 
   @override
+  // ignore: non_nullable_equals_parameter
   bool operator ==(dynamic other) {
     if (other is OptimizedCacheImageProvider) {
       return ((cacheKey ?? url) == (other.cacheKey ?? other.url)) &&

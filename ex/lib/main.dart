@@ -54,7 +54,7 @@ class HumblerookiePluginExample extends StatelessWidget {
         colorScheme: ColorScheme.fromSwatch(
                 primarySwatch:
                     createMaterialColor(const Color.fromRGBO(48, 49, 60, 1)))
-            .copyWith(background: const Color.fromRGBO(48, 49, 60, 0.8))
+            .copyWith(primary: const Color.fromRGBO(48, 49, 60, 0.8))
             .copyWith(secondary: Colors.white60),
       ),
       home: const AppHome(title: 'Baseflow $pluginName example app'),
@@ -109,7 +109,7 @@ class _AppHomeState extends State<AppHome> {
           child: Text("OptimizedCachedImage"),
         ),
       ),
-      backgroundColor: Theme.of(context).colorScheme.background,
+      backgroundColor: Theme.of(context).colorScheme.onPrimary,
       body: PageView(
         controller: _pageController,
         children: pages,

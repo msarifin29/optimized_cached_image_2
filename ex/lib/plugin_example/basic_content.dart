@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_blurhash/flutter_blurhash.dart';
 import 'package:optimized_cached_image/optimized_cached_image.dart';
 
 class BasicContent extends StatelessWidget {
@@ -107,7 +106,7 @@ class BasicContent extends StatelessWidget {
       child: OptimizedCacheImage(
         placeholder: (context, url) => const AspectRatio(
           aspectRatio: 1.6,
-          child: BlurHash(hash: 'LEHV6nWB2yk8pyo0adR*.7kCMdnj'),
+          // child: BlurHash(hash: 'LEHV6nWB2yk8pyo0adR*.7kCMdnj'),
         ),
         imageUrl: 'https://loremflickr.com/100/100/music?lock=1',
         fit: BoxFit.cover,
